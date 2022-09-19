@@ -1,6 +1,10 @@
+import { Board } from '../';
+
 function Screen(){
   return (
-    <h1> Test </h1>
+    <div className="mx-auto my-4">
+      <Board size={11}/>
+    </div>
   )
 }
 

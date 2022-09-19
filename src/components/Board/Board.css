@@ -1,0 +1,14 @@
+.game-board {
+   width: 50%;
+   margin: auto;
+}
+
+.tile {
+   border-style: solid;
+   border-color: white;
+   border-width: thin;
+   height: 30px;
+   width: 30px;
+   margin: 0px;
+   color: white;
+}

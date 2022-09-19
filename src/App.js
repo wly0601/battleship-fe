@@ -1,8 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import Screen from './components/Screen/Screen.js';
-import Settings from './components/Settings/Settings.js'
+import { Screen, Opponent, Settings } from './components'
 
 function App() {
   return (
@@ -12,7 +11,12 @@ function App() {
           <Screen />
         </Col>
         <Col className="settings" md={3}>
-          <Settings />
+          <Row className="m-2">
+            <Settings />
+          </Row>
+          <Row className="m-2">
+            <Opponent />
+          </Row>
         </Col>
       </Row>
     </Container>

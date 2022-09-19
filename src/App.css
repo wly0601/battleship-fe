@@ -11,9 +11,10 @@
 }
 
 .screen {
-  background-color: green;
+  background-color: #282c34;
 }
 
 .settings {
-  background-color: black;
+  background-color: white;
+  border-style: solid;
 }
